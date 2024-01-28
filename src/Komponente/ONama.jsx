@@ -1,10 +1,10 @@
 import React from 'react';
 import backgroundImage from './Images/pozadina.png';
 
-import image1 from './Images/fb.png';
-import image2 from './Images/ig.png';
-import image3 from './Images/tw.png';
-import image4 from './Images/ph.png';
+import image1 from './Images/ON1.png';
+import image2 from './Images/ON2.png';
+import image3 from './Images/ON3.png';
+import image4 from './Images/ON4.png';
 import '../App.css';
 
 const ONama = () => {
