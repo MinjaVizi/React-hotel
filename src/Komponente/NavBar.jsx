@@ -6,6 +6,7 @@ import em from './Images/em.png';
 import ph from './Images/ph.png';
 import logo from './Images/logo.png';
 
+
 import '../App.css';
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
                     </div>
                     <div className="email-icon">
                         <img className="icon" src={em} alt="Email" />
-                        <span>info@hotel.com</span>
+                        <span>info@hotelOblak.com</span>
                     </div>
                 </div>
                 <div className="social-media-icons">

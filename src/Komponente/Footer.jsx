@@ -1,13 +1,14 @@
 import React from 'react';
 import logo from './Images/logo.png'; // Adjust the path as necessary
 
+
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h2>Hotel Oblak</h2>
-          <p>Vaše mesto daleko od buke i stresa <br></br>u netaknutim predelima Tare.</p>
+          <h2>HOTEL OBLAK</h2>
+          <p>Vaše mesto daleko od buke i stresa <br></br>u netaknutim predelima Zlatara.</p>
         </div>
         <div className="footer-section">
           <img src={logo} alt="Hotel Oblak" />
