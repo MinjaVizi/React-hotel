@@ -14,10 +14,10 @@ const Footer = () => {
           <img src={logo} alt="Hotel Oblak" />
         </div>
         <div className="footer-section">
-          <h2>Raspored</h2>
-          <p>Doručak: 07:30 - 10:00</p>
-          <p>Ručak: 12:30 - 15:00</p>
-          <p>Večera: 18:30 - 2:00</p>
+          <h2>Raspored čišćenja</h2>
+          <p>Sobe 101-301: 12:30 - 14:00</p>
+          <p>Sobe 301-501: 14:30 - 16:00</p>
+          <p>Sobe 501-701: 16:30 - 18:00</p>
         </div>
       </div>
     </footer>
