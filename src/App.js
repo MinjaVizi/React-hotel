@@ -5,19 +5,19 @@ import Navbar from './Komponente/NavBar';
 import Footer from './Komponente/Footer';
 import Pocetna from './Komponente/Pocetna';
 import Rezervacije from './Komponente/Rezervacije';
-import Restoran from './Komponente/Restoran';
+import Sobe from './Komponente/Sobe';
 import ONama from './Komponente/ONama';
 import Kontakt from './Komponente/Kontakt';
-
+import backgroundImage from './Komponente/Images/pozadina.png';
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar />
-        <Routes> {/* Use Routes for routing */}
+        <Routes> 
           <Route exact path="/" element={<Pocetna />} />
           <Route path="/rezervacije" element={<Rezervacije />} />
-          <Route path="/restoran" element={<Restoran />} />
+          <Route path="/sobe" element={<Sobe />} />
           <Route path="/o-nama" element={<ONama />} />
           <Route path="/kontakt" element={<Kontakt />} />
         </Routes>
@@ -26,5 +26,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;

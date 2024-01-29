@@ -268,3 +268,146 @@
 
 
   }
+
+  .homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    background-color: #ffffff77;
+    border-radius: 10px;
+  }
+  
+  .homepage-main-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+  }
+  
+  .homepage-image {
+    width: 50%; 
+    max-width: 600px;
+    height: auto;
+    margin-right: 50px;
+    border-radius: 10px;
+  }
+  
+  .homepage-text-buttons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .homepage-welcome-text {
+    font-size: 3.5vw; 
+    color: #2963a1;
+    margin-top: -10px; 
+
+  }
+  
+  .homepage-buttons-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    width: 100%; 
+    height: 150px;
+    margin-top: 10px;
+  }
+  
+  .homepage-buttons-container button {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #78b0ff;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .homepage-buttons-container button:hover {
+    background-color: #36f5ff;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .homepage-main-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .homepage-image {
+      width: 80%; 
+      margin-right: 0; 
+      margin-bottom: 20px; 
+    }
+  
+    .homepage-text-buttons {
+      align-items: center;
+    }
+  
+    .homepage-buttons-container {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
+
+
+
+
+  .reservation-form-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff98;
+    color: #333;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    background-color: #333;
+    color: #2963a1;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #36f5ff;
+    color: #333;  }
+  
+  .react-datepicker__input-container {
+    width: 10%;
+    margin-left: 7px;
+  }
+  
+  @media (max-width: 768px) {
+    .reservation-form-container {
+      flex-direction: column;
+    }
+  }
+  

@@ -32,11 +32,11 @@ const Navbar = () => {
             <div className="bottom-bar">
                 <ul className="nav-links">
                     <li><a href="/">Pocetna</a></li>
-                    <li><a href="/Rezervacija">Rezervacije</a></li>
+                    <li><a href="/Rezervacije">Rezervacije</a></li>
                     <li className="nav-logo">
                         <a href="/"><img src={logo} alt="Hotel Logo" /></a>
                     </li>
-                    <li><a href="/Restoran">Restoran</a></li>
+                    <li><a href="/Sobe">Sobe</a></li>
                     <li><a href="/O-nama">O nama</a></li>
                     <li><a href="/Kontakt">Kontakt</a></li>
                 </ul>
