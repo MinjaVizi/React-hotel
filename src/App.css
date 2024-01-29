@@ -411,3 +411,56 @@
     }
   }
   
+.soba-kartica {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 16px;
+    background-color: #ffffff87;
+    max-width: 300px;
+  }
+  
+
+  .soba-detalji {
+    padding: 16px;
+  }
+  
+  .soba-naziv {
+    font-size: 1.25em;
+    color: #333;
+  }
+  
+  .soba-opis {
+    font-size: 1em;
+    color: #666;
+    margin: 8px 0;
+  }
+  
+  .soba-cena {
+    font-size: 1em;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .sobe-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 1200px) {
+    .sobe-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sobe-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
