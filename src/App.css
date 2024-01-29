@@ -240,7 +240,7 @@
   .onama-image {
     margin: 0 20px;
     width: auto; 
-    max-width: 400px; 
+    max-width: 350px; 
     height: auto;
     border-radius: 10px;
   }
@@ -262,7 +262,7 @@
   
   .onama-container{
     max-width: 1000px;
-    background-color: #ffffff9e;
+    background-color: #ffffff89;
     color: #222;
     border-radius: 10px;
 
