@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css'; 
 
-const JednaSoba = ({ slika, naziv, opis, cena }) => {
+const JednaSoba = ({ naziv, opis, cena }) => {
   return (
     <div className="soba-kartica">
       <div className="soba-detalji">
