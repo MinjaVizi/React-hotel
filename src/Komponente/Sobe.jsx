@@ -1,24 +1,23 @@
 import React from 'react';
 import backgroundImage from './Images/pozadina.png';
 import JednaSoba from './JednaSoba';
-import S3 from "./Images/S3.png"
 import '../App.css';
 
 const sobeInfo = [
         {
           naziv: "Jednokrevetna Soba",
           opis: "Udobna soba za jednu osobu sa svim neophodnim sadržajima.",
-          cena: "50€ po noći"
+          cena: "50€ - noć"
         },
         {
           naziv: "Dvokrevetna Soba",
           opis: "Prostrana soba sa dva udobna kreveta idealna za parove ili prijatelje.",
-          cena: "80€ po noći"
+          cena: "80€ - noć"
         },
         {
           naziv: "Trokrevetna Soba",
           opis: "Savršen izbor za male grupe ili porodice, sa tri pojedinačna kreveta.",
-          cena: "100€ po noći"
+          cena: "100€ - noć"
         },
         {
           naziv: "Četvorokrevetna Soba",
